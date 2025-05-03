@@ -11,7 +11,7 @@ def display_menu():
     print("==============================")
 
 def initialize_movie_list():
-    return ["The Shawshank Redemption", "Inception", "The Matrix"]
+    return ["Die Hard", "Vanshing Point", "1974's MacBeth"]
 
 def display_movies(movie_list):
     if not movie_list:
@@ -56,7 +56,7 @@ def main():
             delete_movie(movie_list)
             display_movies(movie_list)
         elif choice == '4':
-            print("Exiting the program. Goodbye!")
+            print("Exiting the program.")
             break
         else:
             print("Invalid command. Please choose a valid option.")
